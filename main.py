@@ -24,7 +24,7 @@ print(sum_range(1, 5))'''
 
 def read_last(lines, file):
     if lines < 1 or type(lines) != int:
-        print('Кількість строк може бути лише цілим, додатнім числом')
+        print('Только положительное число')
     else:
         with open(file, encoding='utf-8') as k:
             file_lines = k.readlines()[-lines:]
